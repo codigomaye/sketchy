@@ -1,0 +1,16 @@
+body{
+    background-color: azure;
+}
+
+.container{
+    display: grid;
+    width: 960px;
+    height: 960px;
+    background-color: antiquewhite;
+
+}
+
+.grid{
+    background-color: white;
+    border: 1px solid black;
+}
