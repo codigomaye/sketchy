@@ -1,16 +1,30 @@
 body{
     background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .container{
     display: grid;
-    width: 960px;
-    height: 960px;
+    width: 720px;
+    height: 720px;
     background-color: antiquewhite;
 
 }
 
 .grid{
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.newGrid{
+    padding: 16px 48px;
+    font-size: 32px;
+}
+
+h1, h2{
+    margin: 0;
 }
